@@ -1,0 +1,187 @@
+
+#navBar{
+   
+}
+
+#fooTer{
+    background-color: rgb(209, 19, 19);
+    position: relative;
+    top: 100vh;
+    bottom: 0%;
+  
+}
+
+.bg{
+    color: black;
+    /* border: 3px solid red; */
+    background-color: red;
+    background-image: linear-gradient(to right, red,yellow);
+}
+.carOusel{
+    width: 40%;
+   margin: auto; 
+ 
+}
+#carousel-container-home{
+    margin-top: 50px;
+}
+
+.carousel-control-prev{
+    height:50px;
+    width:50px;
+    margin: auto;
+    margin-left: 15%;
+    max-width: 10%;
+    max-height: 40%;
+}
+
+.carousel-control-next{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    margin-right: 15%;
+    max-width: 10%;
+    max-height: 40%;
+}
+.col{
+    /* border: 3px solid red !important; */
+}
+
+
+.mantra{
+    /* border: 4px solid red; */
+    display: block;
+    margin:auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.items{
+    text-decoration: none;
+    color: green;
+    margin: 10px;
+    border-radius: 5px;
+   font-size: 25px;
+ 
+  background-color: pink;
+  padding-left: 2px;
+    
+    
+}
+.items:hover{
+    color: blueviolet;
+}
+
+
+
+#list{
+    /* border: 3px solid goldenrod; */
+    display: flex;
+    /* width: fit-content; */
+    flex-direction: column;
+
+    margin: auto;
+   
+}
+
+.status{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+.Status{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+.status > div{
+  
+  margin: 10px;
+  
+  
+  height: 200px;
+  width: 200px;
+  background-color: aliceblue;
+}
+
+.Status > div {
+    margin: 10px;
+}
+.status > div >img {
+    height: 180px;
+    width: 200px;
+}
+.Status > div > a > img {
+    height: 200px;
+    width: 200px;
+}
+.status > div > a {
+    height: 180px;
+    width: 200px;
+}
+.status > div > p{
+    display: block;
+    text-align: center;
+    padding: auto;
+}
+
+#buy{
+    background-color: rgb(188, 158, 215);
+    font-size: medium;
+    margin: 10px;
+}
+
+.QUOTES{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 40px;
+}
+
+.QUOTES > div{
+    margin: 30px;
+    background-color: rgb(229, 65, 65);
+   padding: 20px;
+   
+
+}
+.QUOTES > div >img {
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+
+}
+
+.mahakal {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 10px;
+    
+   
+
+
+}
+.mahakal > img{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+
+}
+#about > li{
+    margin: 10px;
+    background-color: rgb(201, 72, 72);
+}
+
+#shiv{
+  justify-self: center;
+}
