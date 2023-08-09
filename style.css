@@ -177,6 +177,12 @@
     width: 200px;
 
 }
+.mahakal > video{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+
+}
 #about > li{
     margin: 10px;
     background-color: rgb(201, 72, 72);
