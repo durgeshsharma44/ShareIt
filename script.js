@@ -10,18 +10,23 @@ const navbarHtml = `<nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
       </li>
  
-      <li class="nav-item">
-      <a class="nav-link" href="contact.html">Contact us</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link" href="about.html">About</a>
+  <li>
+  <a class="nav-link" href="mahakal.html">Status</a>
   </li>
- 
+  <li>
+  <a class="nav-link" href="quotes.html">Quotes</a>
+  </li>
+  <li>
+  <a class="nav-link" href="images.html">Images</a>
+  </li>
 
-     
-    
+ 
+ 
     </ul>
-   
+    <a style="margin: 10px;"  href="https://instagram.com/mahakal_k_bhakt12?igshid=OGQ2MjdiOTE="><img style="height: 20px; width: 20px;" src="ig.png" alt=""></a>
+
+    <a href="https://www.youtube.com/@mahakalkbhakt12"><img style="height: 25px; width: 25px;" src="yt.png" alt=""></a>
+
   </div>
 </div>
 </nav>`;

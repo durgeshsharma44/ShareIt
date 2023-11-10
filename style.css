@@ -1,12 +1,13 @@
 
-#navBar{
-   
-}
 
+.navbar{
+    opacity: 0.5;
+   border-bottom: 1px solid black;
+}
 #fooTer{
     background-color: rgb(209, 19, 19);
     position: relative;
-    top: 100vh;
+    top: 20vh;
     bottom: 0%;
   
 }
@@ -17,36 +18,14 @@
     background-color: red;
     background-image: linear-gradient(to right, red,yellow);
 }
-.carOusel{
-    width: 40%;
-   margin: auto; 
+
+
+#headimg{
+    display: block;
+    margin:auto;
  
+   
 }
-#carousel-container-home{
-    margin-top: 50px;
-}
-
-.carousel-control-prev{
-    height:50px;
-    width:50px;
-    margin: auto;
-    margin-left: 15%;
-    max-width: 10%;
-    max-height: 40%;
-}
-
-.carousel-control-next{
-    height: 50px;
-    width: 50px;
-    margin: auto;
-    margin-right: 15%;
-    max-width: 10%;
-    max-height: 40%;
-}
-.col{
-    /* border: 3px solid red !important; */
-}
-
 
 .mantra{
     /* border: 4px solid red; */
@@ -116,19 +95,7 @@
     height: 180px;
     width: 200px;
 }
-.Status > div > a > img {
-    height: 200px;
-    width: 200px;
-}
-.status > div > a {
-    height: 180px;
-    width: 200px;
-}
-.status > div > p{
-    display: block;
-    text-align: center;
-    padding: auto;
-}
+
 
 #buy{
     background-color: rgb(188, 158, 215);
@@ -136,38 +103,14 @@
     margin: 10px;
 }
 
-.QUOTES{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-    flex-wrap: wrap;
-    text-align: center;
-    font-size: 40px;
-}
 
-.QUOTES > div{
-    margin: 30px;
-    background-color: rgb(229, 65, 65);
-   padding: 20px;
-   
-
-}
-.QUOTES > div >img {
-    height: 300px;
-    width: 200px;
-    margin: 10px;
-
-}
-
-.mahakal {
+.mahakal{
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     margin: 10px 10px;
-    
-   
 
 
 }
@@ -179,8 +122,9 @@
 }
 .mahakal > video{
     margin: 10px;
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
 
 }
 #about > li{
@@ -190,4 +134,13 @@
 
 #shiv{
   justify-self: center;
+}
+
+#ytvdo{
+    width: 50%;
+    
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+   
 }

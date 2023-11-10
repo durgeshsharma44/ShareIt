@@ -21,23 +21,16 @@
 <body onload="webOnInit()" class="bg">
   <div id="navBar"></div>
   
-    
-   <div class="mahakal">
-    <img src="./quates/1.png" alt="">
-    <img src="./quates/2.png" alt="">
-    <img src="./quates/3.png" alt="">
-    <img src="./quates/4.png" alt="">
-    <img src="./quates/5.png" alt="">
-    <img src="./quates/6.png" alt="">
-    <img src="./quates/7.png" alt="">
-    <img src="./quates/8.png" alt="">
-    <img src="./quates/9.png" alt="">
-    <img src="./quates/10.png" alt="">
-    <img src="./quates/11.png" alt="">
-    <img src="./quates/12.png" alt="">
+  <div class="Status" id="photos">
+    </div>
 
-   </div>
   <footer id="fooTer"></footer>
-  
+  <script>
+    for(var i=1;i<15;i++)
+   {
+  document.getElementById("photos").innerHTML+=`<img width="300" height="400" style="margin:10px; border-radius: 10px; "src="./quates/${i}.png" alt="">`;
+   }
+   
+ </script>
 </body>
 </html>
